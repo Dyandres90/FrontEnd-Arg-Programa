@@ -1,8 +1,8 @@
 .row{
+    padding: 20px;
     text-align: left;
     background-color: black;
     color: white;
-    padding: 20px;
 }
 
 div{
@@ -10,11 +10,20 @@ div{
         color: white;
 }
 
-.edu{
-    box-shadow: 0px -2px 0px #999;
+.titulo{
+    box-shadow: 1px 1px 2px 3px white;
+    text-align: left;
+    background-color: black;
+    color:white;
     padding: 20px;
+    font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    border-radius: 20px;
+    text-shadow: 0 2px 4px white, 0px -2px 1px white;
 }
 
-h1, h3{
-    display: inline;
+.table{
+    color: white;
 }
